@@ -1,2 +1,2 @@
-cp src ../gdbext
+cp -r src ../gdbext
 
