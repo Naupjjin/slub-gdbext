@@ -1,2 +1,2 @@
-mv src gdbext
+cp slub-gdbext/src gdbext
 
