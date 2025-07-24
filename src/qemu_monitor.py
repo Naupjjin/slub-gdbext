@@ -1,10 +1,12 @@
 import socket
 
 class QemuMonitorCommand(GenericCommand):
-    """Send a command to QEMU monitor via UNIX socket."""
-    '''
+    """
+	Send a command to QEMU monitor via UNIX socket.
+    
     -monitor unix:/tmp/qemu-monitor.sock,server,nowait
-    '''
+	by. naup
+    """
 
     _cmdline_ = "qemu_monitor"
     _syntax_  = "qemu_monitor 'monitor_command_string'"
