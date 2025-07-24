@@ -6,3 +6,4 @@ Additionally, implement commands that simplify kernel debugging in QEMU — for 
 
 ## Why make this ext?
 This extension works without requiring full debug symbols and supports systems with SLUB protections enabled.
+It also provides others scripts for debugging the kernel.
